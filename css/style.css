@@ -1,10 +1,39 @@
+html {
+    background-color: #fcfcfc;
+}
+body {
+    font-family: "Raleway";
+    font-size: 130%;
+}
 h1 {
     font-family: "Liu Jian Mao Cao";
     font-size: 10vw;
+    margin-top: 0;
     padding-bottom: 1%;
 }
 h4 {
-    font-family: "Raleway";
     font-size: 3vw;
-    padding-bottom: 15%;
+    padding-bottom: 8%;
+}
+#menu {
+    margin: 2% 0% 0% 2%;
+}
+#about {
+    position: relative;
+    font-family: "Liu Jian Mao Cao";
+    font-size: 8vw;
+    margin-top: -3%;
+    margin-left: 10%;
+    z-index: 1;
+}
+#about-body,
+#about-sub-1,
+#about-sub-2 {
+    padding: 10% 7%;
+}
+#btn-row {
+    margin: 0;
+}
+#contact-btn {
+    margin-bottom: -18%;
 }
