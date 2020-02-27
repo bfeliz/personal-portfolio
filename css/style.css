@@ -1,6 +1,8 @@
 html,
 body {
     background-color: #fcfcfc;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 body {
     font-family: "Raleway";
@@ -40,7 +42,4 @@ h4 {
 }
 #contact-btn {
     margin-bottom: -2%;
-}
-.height-match {
-    min-height: 100%;
 }

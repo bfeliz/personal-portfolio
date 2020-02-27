@@ -5,30 +5,28 @@ $(document).ready(function() {
     // keep bottom columns same height
     function sameHeights(selector) {
         var selector = selector || '[data-key="sameHeights"]',
-            query = document.querySelectorAll(selector),
+            query = $(selector),
             elements = query.length,
             max = 0;
         if (elements) {
             while (elements--) {
-                var element = query[elements];
+                let element = query[elements];
                 if (element.clientHeight > max) {
                     max = element.clientHeight;
                 }
             }
             elements = query.length;
             while (elements--) {
-                var element = query[elements];
+                let element = query[elements];
                 element.style.height = max + "px";
             }
         }
     }
     // event listener for bottom columns
-    if ("addEventListener" in window) {
-        window.addEventListener("resize", function() {
-            sameHeights();
-        });
-        window.addEventListener("load", function() {
-            sameHeights();
-        });
-    }
+    $(window).on("resize", function() {
+        sameHeights();
+    });
+    $(window).on("load", function() {
+        sameHeights();
+    });
 });
