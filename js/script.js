@@ -24,9 +24,11 @@ $(document).ready(function() {
     }
     // event listener for bottom columns
     $(window).on("resize", function() {
-        sameHeights();
+        sameHeights($(".about-col"));
+        sameHeights($(".port-col"));
     });
     $(window).on("load", function() {
-        sameHeights();
+        sameHeights($(".about-col"));
+        sameHeights($(".port-col"));
     });
 });
