@@ -24,10 +24,13 @@ h1 {
     margin: 2% 0% 0% 2%;
 }
 #about-container,
-#portfolio-container {
+#portfolio-container,
+#contact-container {
     margin-bottom: 12%;
 }
-#about {
+#about,
+#portfolio,
+#contact {
     position: relative;
     font-family: "Liu Jian Mao Cao";
     font-size: 8vw;
@@ -35,17 +38,20 @@ h1 {
     margin-left: 10%;
     z-index: 1;
 }
-#about-body {
+#about-body,
+#portfolio-body,
+#contact-body {
     padding: 10% 7% 7% 7%;
     text-align: justify;
 }
 #portfolio-sub-1,
 #portfolio-sub-2,
 #about-sub-1,
-#about-sub-2 {
+#about-sub-2,
+#contact-sub-1,
+#contact-sub-2 {
     padding: 7%;
 }
-
 .btn-row {
     margin: 0;
 }
@@ -53,16 +59,8 @@ h1 {
     margin-bottom: -2%;
 }
 #portfolio {
-    position: relative;
-    font-family: "Liu Jian Mao Cao";
-    font-size: 8vw;
-    margin-top: -3%;
+    margin-left: 0%;
     margin-right: 10%;
-    z-index: 1;
-}
-#portfolio-body {
-    padding: 10% 7% 7% 7%;
-    text-align: justify;
 }
 .first-header {
     text-align: center;
@@ -77,6 +75,22 @@ h1 {
 .responsive {
     max-width: 100%;
     height: auto;
+}
+.divider {
+    margin-top: 10%;
+}
+.connect {
+    text-align: center;
+}
+.icons {
+    padding-top: 10%;
+    text-align: center;
+}
+.icon1 {
+    padding-right: 3%;
+}
+.connect a:hover {
+    text-decoration: underline;
 }
 @media screen and (min-width: 410px) {
     .subtitle {

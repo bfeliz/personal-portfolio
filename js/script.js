@@ -4,10 +4,10 @@ $(document).ready(function() {
 
     // keep bottom columns same height
     function sameHeights(selector) {
-        var selector = selector || '[data-key="sameHeights"]',
-            query = $(selector),
-            elements = query.length,
-            max = 0;
+        var selector = selector || '[data-key="sameHeights"]';
+        const query = $(selector);
+        let elements = query.length;
+        let max = 0;
         if (elements) {
             while (elements--) {
                 let element = query[elements];
