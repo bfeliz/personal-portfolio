@@ -31,4 +31,17 @@ $(document).ready(function() {
         sameHeights($(".about-col"));
         sameHeights($(".port-col"));
     });
+
+    // menu scroll to element function
+    $('a[href^="#"]').on("click", function(event) {
+        event.preventDefault();
+
+        $("html, body").animate(
+            {
+                scrollTop: $($(this).attr("href")).offset().top
+            },
+            500,
+            "linear"
+        );
+    });
 });
