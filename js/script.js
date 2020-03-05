@@ -4,12 +4,12 @@ $(document).ready(function() {
 
     // keep bottom columns same height
     function sameHeights(selector) {
+        $(selector).css("height", "fit-content");
         let sel = selector || '[data-key="sameHeights"]';
         const query = $(sel);
         let elements = query.length;
         let max = 0;
         if (elements) {
-            // note for Tucker ----- I feel like perhaps I am missing a jQuery way to do the below, I know about the .css() method of course but couldn't really figure out how to attach it to the variable "element" instead of a specific piece of HTML...
             while (elements--) {
                 let element = query[elements];
                 if (element.clientHeight > max) {
@@ -19,7 +19,7 @@ $(document).ready(function() {
             elements = query.length;
             while (elements--) {
                 let element = query[elements];
-                element.style.height = max + "px";
+                $(element).css("height", max + "px");
             }
         }
     }
