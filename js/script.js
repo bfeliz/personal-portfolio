@@ -4,8 +4,8 @@ $(document).ready(function() {
 
     // keep bottom columns same height
     function sameHeights(selector) {
-        var selector = selector || '[data-key="sameHeights"]';
-        const query = $(selector);
+        const sel = selector;
+        const query = $(sel);
         let elements = query.length;
         let max = 0;
         if (elements) {
@@ -23,13 +23,15 @@ $(document).ready(function() {
         }
     }
     // event listener for bottom columns
-    $(window).on("resize", function() {
+    $(window).resize(function() {
         sameHeights($(".about-col"));
         sameHeights($(".port-col"));
+        sameHeights($(".contact-col"));
     });
     $(window).on("load", function() {
         sameHeights($(".about-col"));
         sameHeights($(".port-col"));
+        sameHeights($(".contact-col"));
     });
 
     // menu scroll to element function
