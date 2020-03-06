@@ -28,7 +28,6 @@ $(document).ready(function() {
 
     // event listener for column height match
     $(window).on("resize", function() {
-        console.log("Is reading size");
         sameHeights($(".about-col"));
         sameHeights($(".port-col"));
         sameHeights($(".contact-col"));
