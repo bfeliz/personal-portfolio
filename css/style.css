@@ -9,7 +9,7 @@ body {
 h1 {
     font-family: "Liu Jian Mao Cao";
     font-size: 10vw;
-    margin-top: 0;
+    margin-top: -2%;
     padding-bottom: 1%;
 }
 .btn {
@@ -17,9 +17,20 @@ h1 {
 }
 .subtitle {
     padding-bottom: 8%;
+    margin-bottom: 0;
 }
-#menu {
-    margin: 2% 0% 0% 2%;
+.fixed-action-btn {
+    position: absolute;
+    display: inline-block;
+    left: 24px;
+    right: auto;
+}
+.menu-div {
+    position: relative;
+    height: 90px;
+}
+.menu-btn {
+    width: 30px;
 }
 #about-container,
 #portfolio-container,
@@ -54,8 +65,21 @@ h1 {
 #contact-sub-2 {
     padding: 4%;
 }
+#contact-sub-1 {
+    background-color: #2f2931;
+}
+#portfolio-body {
+    background-color: #fff2f0;
+}
+#portfolio-sub-1 {
+    background-color: #ffe7e3;
+}
+#portfolio-sub-2 {
+    background-color: #e8bdb5;
+}
+#about-body,
 .btn-row {
-    margin: 0;
+    background-color: #1f4954;
 }
 #contact-btn {
     margin-bottom: -2%;
@@ -91,12 +115,24 @@ h1 {
     max-height: 100%;
     margin-top: 0;
 }
+@media screen and (max-width: 450px) {
+    .btn-row {
+        margin-top: -1%;
+    }
+    .menu-btn {
+        font-size: x-small;
+    }
+}
+
 @media screen and (min-width: 410px) {
     .subtitle {
         font-size: 1.64rem;
     }
     .headers {
         font-size: 2.28rem;
+    }
+    #about-body {
+        padding-top: 15%;
     }
 }
 @media screen and (min-width: 900px) {

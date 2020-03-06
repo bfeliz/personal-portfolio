@@ -1,6 +1,8 @@
 $(document).ready(function() {
-    // keep dropdown from covering menu button
-    $(".dropdown-trigger").dropdown({ coverTrigger: false });
+    // enable floating action button
+    $(".fixed-action-btn").floatingActionButton({
+        direction: "right"
+    });
 
     // keep bottom columns same height
     function sameHeights(selector) {
