@@ -51,4 +51,32 @@ $(document).ready(function() {
             "linear"
         );
     });
+
+    $("#portfolio-sub-1").hover(
+        function() {
+            changeIcon();
+        },
+        function() {}
+    );
+
+    function changeIcon() {
+        const icons = [
+            "assets/weather/clouds.png",
+            "assets/weather/dark-cloud-rain.png",
+            "assets/weather/dark-cloud.png",
+            "assets/weather/dark-sun.png",
+            "assets/weather/light-lightening.png",
+            "assets/weather/lightning.png",
+            "assets/weather/moon-cloud.png",
+            "assets/weather/partial.png",
+            "assets/weather/rain-sun.png",
+            "assets/weather/rain.png",
+            "assets/weather/snow-2.png",
+            "assets/weather/snow.png",
+            "assets/weather/sun.png"
+        ];
+        const randIcon = icons[Math.floor(Math.random() * icons.length)];
+
+        $(".wIcons").attr("src", randIcon);
+    }
 });

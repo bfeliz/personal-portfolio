@@ -65,12 +65,34 @@ h1 {
 #contact-sub-2 {
     padding: 4%;
 }
-#contact-sub-1 {
-    background-color: #2f2931;
-}
 #portfolio-body {
     background-color: #fff2f0;
+    -webkit-transition: background-color 2s linear;
+    -moz-transition: background-color 2s linear;
+    -ms-transition: background-color 2s linear;
+    -o-transition: background-color 2s linear;
+    transition: background-color 2s linear;
 }
+#portfolio-body:hover {
+    background-color: #cfa199;
+}
+.cal {
+    color: black;
+    -webkit-transition: color 1s;
+    -moz-transition: color 1s;
+    -ms-transition: color 1s;
+    -o-transition: color 1s;
+    transition: color 2s;
+}
+.cal:hover {
+    color: #45808f;
+}
+#contact-sub-1 {
+    background-color: #c0b3c4;
+}
+/* #portfolio-body {
+    background-color: #fff2f0;
+} */
 #portfolio-sub-1 {
     background-color: #ffe7e3;
 }
@@ -79,7 +101,7 @@ h1 {
 }
 #about-body,
 .btn-row {
-    background-color: #1f4954;
+    background-color: #386975;
 }
 #contact-btn {
     margin-bottom: -2%;
@@ -116,6 +138,9 @@ h1 {
     max-height: 100%;
     margin-top: 0;
 }
+.wIcons {
+    padding-left: 2%;
+}
 @media screen and (max-width: 450px) {
     .btn-row {
         margin-top: -1%;
@@ -131,9 +156,6 @@ h1 {
     }
     .headers {
         font-size: 2.28rem;
-    }
-    #about-body {
-        padding-top: 15%;
     }
 }
 @media screen and (min-width: 900px) {
