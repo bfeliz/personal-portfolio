@@ -90,11 +90,9 @@ h1 {
 #contact-sub-1 {
     background-color: #c0b3c4;
 }
-/* #portfolio-body {
-    background-color: #fff2f0;
-} */
 #portfolio-sub-1 {
     background-color: #ffe7e3;
+    padding-top: 2.5%;
 }
 #portfolio-sub-2 {
     background-color: #e8bdb5;
@@ -141,6 +139,9 @@ h1 {
 .wIcons {
     padding-left: 2%;
 }
+[data-tooltip]:hover:after {
+    display: none;
+}
 @media screen and (max-width: 450px) {
     .btn-row {
         margin-top: -1%;
@@ -171,5 +172,16 @@ h1 {
 @media screen and (min-width: 993px) {
     #email-link {
         font-size: 1.28rem;
+    }
+}
+@media screen and (max-width: 1372px) {
+    #portfolio-sub-1 {
+        padding-top: 4%;
+    }
+    .wIcons {
+        padding-top: 3%;
+    }
+    .weather {
+        margin-top: 0;
     }
 }

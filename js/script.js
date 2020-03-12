@@ -4,6 +4,8 @@ $(document).ready(function() {
         direction: "right"
     });
 
+    $(".tooltipped").tooltip();
+
     // keep bottom columns same height
     function sameHeights(selector) {
         $(selector).css("height", "fit-content");
