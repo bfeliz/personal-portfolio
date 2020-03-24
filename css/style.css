@@ -65,7 +65,7 @@ h1 {
 #contact-sub-2 {
     padding: 4%;
 }
-#portfolio-body {
+#portfolio-sub-2 {
     background-color: #fff2f0;
     -webkit-transition: background-color 2s linear;
     -moz-transition: background-color 2s linear;
@@ -73,10 +73,10 @@ h1 {
     -o-transition: background-color 2s linear;
     transition: background-color 2s linear;
 }
-#portfolio-body:hover {
+#portfolio-sub-2:hover {
     background-color: #cfa199;
 }
-.cal {
+.bullet {
     color: black;
     -webkit-transition: color 1s;
     -moz-transition: color 1s;
@@ -84,8 +84,8 @@ h1 {
     -o-transition: color 1s;
     transition: color 2s;
 }
-.cal:hover {
-    color: #45808f;
+.bullet:hover {
+    color: #5a6b5a;
 }
 #contact-sub-1 {
     background-color: #c0b3c4;
@@ -94,7 +94,7 @@ h1 {
     background-color: #ffe7e3;
     padding-top: 2.5%;
 }
-#portfolio-sub-2 {
+#portfolio-body {
     background-color: #e8bdb5;
 }
 #about-body,
@@ -164,7 +164,7 @@ a.left-mouseover:hover .left-thumbnail {
     opacity: 1;
 }
 a.center-mouseover:hover .center-thumbnail {
-    top: -590%;
+    top: -850%;
     left: -513%;
     z-index: 1;
     opacity: 1;
