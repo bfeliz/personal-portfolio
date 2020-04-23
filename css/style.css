@@ -164,13 +164,13 @@ a.left-mouseover:hover .left-thumbnail {
     opacity: 1;
 }
 a.center-mouseover:hover .center-thumbnail {
-    top: -850%;
-    left: -513%;
+    top: -750%;
+    left: -620%;
     z-index: 1;
     opacity: 1;
 }
 a.right-mouseover:hover .right-thumbnail {
-    top: -590%;
+    top: -850%;
     left: -465%;
     z-index: 1;
     opacity: 1;
