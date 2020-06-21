@@ -67,16 +67,16 @@ h1 {
 }
 #portfolio-sub-2 {
     background-color: #fff2f0;
-    -webkit-transition: background-color 2s linear;
+    /* -webkit-transition: background-color 2s linear;
     -moz-transition: background-color 2s linear;
     -ms-transition: background-color 2s linear;
     -o-transition: background-color 2s linear;
-    transition: background-color 2s linear;
+    transition: background-color 2s linear; */
 }
-#portfolio-sub-2:hover {
+/* #portfolio-sub-2:hover {
     background-color: #cfa199;
-}
-.bullet {
+} */
+/* .bullet {
     color: black;
     -webkit-transition: color 1s;
     -moz-transition: color 1s;
@@ -86,7 +86,7 @@ h1 {
 }
 .bullet:hover {
     color: #044552;
-}
+} */
 #contact-sub-1 {
     background-color: #c0b3c4;
 }
@@ -208,9 +208,9 @@ a.right-mouseover:hover .right-thumbnail {
     }
 }
 @media screen and (max-width: 1372px) {
-    #portfolio-sub-1 {
+    /* #portfolio-sub-1 {
         padding-top: 4%;
-    }
+    } */
     .wIcons {
         padding-top: 3%;
     }
