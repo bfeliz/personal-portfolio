@@ -92,7 +92,7 @@ h1 {
 }
 #portfolio-sub-1 {
     background-color: #ffe7e3;
-    padding-top: 2.5%;
+    /* padding-top: 2.5%; */
 }
 #portfolio-body {
     background-color: #e8bdb5;
@@ -214,7 +214,7 @@ a.right-mouseover:hover .right-thumbnail {
     .wIcons {
         padding-top: 3%;
     }
-    .weather {
+    /* .weather {
         margin-top: 0;
     }
-}
+} */
