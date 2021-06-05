@@ -12,13 +12,13 @@ This is a simple webpage that runs right in the browser, no installation or down
 
 ## Built With:
 
-JavaScript - programming language <br>
-Materialize - CSS framework
+HTML<br>
+JavaScript/jQuery<br>
+Materialize CSS
 
 ## Author:
 
 Brittany Fortner <br>
-See commit history [here](https://github.com/bfeliz/personal-portfolio/graphs/contributors).
 
 ## Planned Updates
 
